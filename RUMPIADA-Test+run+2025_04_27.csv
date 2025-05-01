@@ -1,0 +1,51 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+15,HomePageGuest,"Component Tests",8,,350000,Passed,"2025-04-29 15:39:38","1. Проверява, че секцията с навигация съдържа валидни линкове
+2. Проверява визуализацията на основната секция с featurette блокове
+3. Проверява, че каруселът съдържа индикаторни бутони
+4. Проверява, че контролните бутони на карусела (prev/next) са налични
+5. Проверява показване на следващ слайд
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+","1. Проверява, че секцията с навигация съдържа валидни линкове
+2. Проверява визуализацията на основната секция с featurette блокове
+3. Проверява, че каруселът съдържа индикаторни бутони
+4. Проверява, че контролните бутони на карусела (prev/next) са налични
+5. Проверява показване на следващ слайд","<p>Aggregated result for case 15</p>",,"Not set",Normal,Manual,Other,,false,
+16,Header,"Component Tests",8,,4833000,Failed,"2025-04-29 15:39:38","1. renders correctly with guest (no user)
+2. renders correctly with logged-in user
+3. renders all main nav links
+4. handles search submission
+5. logs out correctly
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. Passed
+2. Failed
+3. Passed
+4. Passed
+5. Passed
+","1. renders correctly with guest (no user)
+2. renders correctly with logged-in user: Timed out retrying after 4000ms: expected '<a.dropdown-item>' to contain 'Edit Profile'
+3. renders all main nav links
+4. handles search submission
+5. logs out correctly","<p>Aggregated result for case 16</p>",,"Not set",Normal,Manual,Other,,false,
